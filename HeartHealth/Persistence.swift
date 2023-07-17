@@ -13,10 +13,16 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
+        
             let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-        }
+        newItem.timestamp = Date()
+        
+        let aspirin = Medication(context: viewContext)
+        aspirin.name = "Aspirin"
+        aspirin.id = UUID()
+        aspirin.dosage = 0.2
+        
+        
         do {
             try viewContext.save()
         } catch {
@@ -25,6 +31,9 @@ struct PersistenceController {
             let nsError = error as NSError
             fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
         }
+        
+        
+        
         return result
     }()
 

@@ -13,6 +13,29 @@
 		4F98609B2A6330B300D2898F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F98609A2A6330B300D2898F /* Preview Assets.xcassets */; };
 		4F98609D2A6330B300D2898F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98609C2A6330B300D2898F /* Persistence.swift */; };
 		4F9860A02A6330B300D2898F /* HeartHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F98609E2A6330B300D2898F /* HeartHealth.xcdatamodeld */; };
+		4F9860A72A6332DB00D2898F /* MedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860A62A6332DB00D2898F /* MedicationsView.swift */; };
+		4F9860A92A6339A900D2898F /* MedicationLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860A82A6339A900D2898F /* MedicationLabelView.swift */; };
+		4F9860AB2A634C5500D2898F /* MedicationAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860AA2A634C5500D2898F /* MedicationAddView.swift */; };
+		4F9860AD2A63543700D2898F /* MedicationDosageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860AC2A63543700D2898F /* MedicationDosageView.swift */; };
+		4F9860AF2A6394F700D2898F /* MedicationNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860AE2A6394F700D2898F /* MedicationNotesView.swift */; };
+		4F9860B22A63B08A00D2898F /* MedicationFrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860B12A63B08A00D2898F /* MedicationFrequencyView.swift */; };
+		4F9860B42A63B57F00D2898F /* MedicationPurposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860B32A63B57F00D2898F /* MedicationPurposeView.swift */; };
+		4F9860B62A63C94A00D2898F /* MedicationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860B52A63C94A00D2898F /* MedicationDetailView.swift */; };
+		4FB4635B2A63DC7E00DE1137 /* MedicationDetailLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4635A2A63DC7E00DE1137 /* MedicationDetailLabelView.swift */; };
+		4FB4635D2A63DF2700DE1137 /* MedicationScheduleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4635C2A63DF2700DE1137 /* MedicationScheduleLabelView.swift */; };
+		4FB463612A63F1D400DE1137 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB463602A63F1D400DE1137 /* HomeView.swift */; };
+		4FB463632A63F2E700DE1137 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB463622A63F2E700DE1137 /* InitialView.swift */; };
+		4FB463652A63F39000DE1137 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB463642A63F39000DE1137 /* MenuItemView.swift */; };
+		4FB463672A63F7B400DE1137 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB463662A63F7B400DE1137 /* ProfileView.swift */; };
+		4FB463692A63F7B900DE1137 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB463682A63F7B900DE1137 /* AboutView.swift */; };
+		4FB4636B2A6515D900DE1137 /* MedicationEditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4636A2A6515D900DE1137 /* MedicationEditScreen.swift */; };
+		4FB463782A651B3300DE1137 /* LeagueSpartan-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463732A651B2500DE1137 /* LeagueSpartan-Light.ttf */; };
+		4FB463792A651B3E00DE1137 /* LeagueSpartan-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463772A651B2500DE1137 /* LeagueSpartan-Bold.ttf */; };
+		4FB4637A2A651B4300DE1137 /* LeagueSpartan-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463712A651B2500DE1137 /* LeagueSpartan-ExtraLight.ttf */; };
+		4FB4637B2A651B4700DE1137 /* LeagueSpartan-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463752A651B2500DE1137 /* LeagueSpartan-Medium.ttf */; };
+		4FB4637C2A651B4A00DE1137 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */; };
+		4FB4637D2A651B4E00DE1137 /* LeagueSpartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463742A651B2500DE1137 /* LeagueSpartan-Thin.ttf */; };
+		4FB4637E2A651B5100DE1137 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463702A651B2500DE1137 /* LeagueSpartan-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +46,32 @@
 		4F98609A2A6330B300D2898F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F98609C2A6330B300D2898F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4F98609F2A6330B300D2898F /* HeartHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeartHealth.xcdatamodel; sourceTree = "<group>"; };
+		4F9860A62A6332DB00D2898F /* MedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationsView.swift; sourceTree = "<group>"; };
+		4F9860A82A6339A900D2898F /* MedicationLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationLabelView.swift; sourceTree = "<group>"; };
+		4F9860AA2A634C5500D2898F /* MedicationAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationAddView.swift; sourceTree = "<group>"; };
+		4F9860AC2A63543700D2898F /* MedicationDosageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDosageView.swift; sourceTree = "<group>"; };
+		4F9860AE2A6394F700D2898F /* MedicationNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationNotesView.swift; sourceTree = "<group>"; };
+		4F9860B02A63985F00D2898F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4F9860B12A63B08A00D2898F /* MedicationFrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationFrequencyView.swift; sourceTree = "<group>"; };
+		4F9860B32A63B57F00D2898F /* MedicationPurposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationPurposeView.swift; sourceTree = "<group>"; };
+		4F9860B52A63C94A00D2898F /* MedicationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailView.swift; sourceTree = "<group>"; };
+		4FB4635A2A63DC7E00DE1137 /* MedicationDetailLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailLabelView.swift; sourceTree = "<group>"; };
+		4FB4635C2A63DF2700DE1137 /* MedicationScheduleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationScheduleLabelView.swift; sourceTree = "<group>"; };
+		4FB463602A63F1D400DE1137 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4FB463622A63F2E700DE1137 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		4FB463642A63F39000DE1137 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		4FB463662A63F7B400DE1137 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4FB463682A63F7B900DE1137 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		4FB4636A2A6515D900DE1137 /* MedicationEditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationEditScreen.swift; sourceTree = "<group>"; };
+		4FB4636F2A651B2500DE1137 /* LeagueSpartan-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4FB463702A651B2500DE1137 /* LeagueSpartan-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-SemiBold.ttf"; sourceTree = "<group>"; };
+		4FB463712A651B2500DE1137 /* LeagueSpartan-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-ExtraLight.ttf"; path = "HeartHealth/Assets/LeagueSpartan-ExtraLight.ttf"; sourceTree = SOURCE_ROOT; };
+		4FB463722A651B2500DE1137 /* LeagueSpartan-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Black.ttf"; sourceTree = "<group>"; };
+		4FB463732A651B2500DE1137 /* LeagueSpartan-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Light.ttf"; sourceTree = "<group>"; };
+		4FB463742A651B2500DE1137 /* LeagueSpartan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Thin.ttf"; sourceTree = "<group>"; };
+		4FB463752A651B2500DE1137 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
+		4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Regular.ttf"; path = "HeartHealth/Assets/LeagueSpartan-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		4FB463772A651B2500DE1137 /* LeagueSpartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +104,10 @@
 		4F9860922A6330B200D2898F /* HeartHealth */ = {
 			isa = PBXGroup;
 			children = (
+				4FB4636D2A651AC600DE1137 /* Assets */,
+				4FB4636C2A651A9400DE1137 /* Views */,
+				4F9860B02A63985F00D2898F /* Info.plist */,
 				4F9860932A6330B200D2898F /* HeartHealthApp.swift */,
-				4F9860952A6330B200D2898F /* ContentView.swift */,
 				4F9860972A6330B300D2898F /* Assets.xcassets */,
 				4F98609C2A6330B300D2898F /* Persistence.swift */,
 				4F98609E2A6330B300D2898F /* HeartHealth.xcdatamodeld */,
@@ -71,6 +122,46 @@
 				4F98609A2A6330B300D2898F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4FB4636C2A651A9400DE1137 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F9860A82A6339A900D2898F /* MedicationLabelView.swift */,
+				4F9860A62A6332DB00D2898F /* MedicationsView.swift */,
+				4F9860B52A63C94A00D2898F /* MedicationDetailView.swift */,
+				4FB4636A2A6515D900DE1137 /* MedicationEditScreen.swift */,
+				4FB463602A63F1D400DE1137 /* HomeView.swift */,
+				4FB463642A63F39000DE1137 /* MenuItemView.swift */,
+				4FB463622A63F2E700DE1137 /* InitialView.swift */,
+				4FB463662A63F7B400DE1137 /* ProfileView.swift */,
+				4FB463682A63F7B900DE1137 /* AboutView.swift */,
+				4FB4635C2A63DF2700DE1137 /* MedicationScheduleLabelView.swift */,
+				4FB4635A2A63DC7E00DE1137 /* MedicationDetailLabelView.swift */,
+				4F9860AA2A634C5500D2898F /* MedicationAddView.swift */,
+				4F9860AC2A63543700D2898F /* MedicationDosageView.swift */,
+				4F9860B12A63B08A00D2898F /* MedicationFrequencyView.swift */,
+				4F9860B32A63B57F00D2898F /* MedicationPurposeView.swift */,
+				4F9860AE2A6394F700D2898F /* MedicationNotesView.swift */,
+				4F9860952A6330B200D2898F /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4FB4636D2A651AC600DE1137 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */,
+				4FB463722A651B2500DE1137 /* LeagueSpartan-Black.ttf */,
+				4FB463772A651B2500DE1137 /* LeagueSpartan-Bold.ttf */,
+				4FB4636F2A651B2500DE1137 /* LeagueSpartan-ExtraBold.ttf */,
+				4FB463712A651B2500DE1137 /* LeagueSpartan-ExtraLight.ttf */,
+				4FB463732A651B2500DE1137 /* LeagueSpartan-Light.ttf */,
+				4FB463752A651B2500DE1137 /* LeagueSpartan-Medium.ttf */,
+				4FB463702A651B2500DE1137 /* LeagueSpartan-SemiBold.ttf */,
+				4FB463742A651B2500DE1137 /* LeagueSpartan-Thin.ttf */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +222,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB463792A651B3E00DE1137 /* LeagueSpartan-Bold.ttf in Resources */,
+				4FB4637A2A651B4300DE1137 /* LeagueSpartan-ExtraLight.ttf in Resources */,
 				4F98609B2A6330B300D2898F /* Preview Assets.xcassets in Resources */,
+				4FB463782A651B3300DE1137 /* LeagueSpartan-Light.ttf in Resources */,
+				4FB4637E2A651B5100DE1137 /* LeagueSpartan-SemiBold.ttf in Resources */,
+				4FB4637C2A651B4A00DE1137 /* LeagueSpartan-Regular.ttf in Resources */,
+				4FB4637B2A651B4700DE1137 /* LeagueSpartan-Medium.ttf in Resources */,
+				4FB4637D2A651B4E00DE1137 /* LeagueSpartan-Thin.ttf in Resources */,
 				4F9860982A6330B300D2898F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F9860AD2A63543700D2898F /* MedicationDosageView.swift in Sources */,
+				4FB463632A63F2E700DE1137 /* InitialView.swift in Sources */,
+				4F9860AF2A6394F700D2898F /* MedicationNotesView.swift in Sources */,
 				4F98609D2A6330B300D2898F /* Persistence.swift in Sources */,
+				4F9860A72A6332DB00D2898F /* MedicationsView.swift in Sources */,
+				4F9860B22A63B08A00D2898F /* MedicationFrequencyView.swift in Sources */,
+				4F9860B42A63B57F00D2898F /* MedicationPurposeView.swift in Sources */,
+				4FB463652A63F39000DE1137 /* MenuItemView.swift in Sources */,
+				4FB4636B2A6515D900DE1137 /* MedicationEditScreen.swift in Sources */,
+				4FB4635B2A63DC7E00DE1137 /* MedicationDetailLabelView.swift in Sources */,
+				4F9860A92A6339A900D2898F /* MedicationLabelView.swift in Sources */,
+				4FB463672A63F7B400DE1137 /* ProfileView.swift in Sources */,
+				4F9860AB2A634C5500D2898F /* MedicationAddView.swift in Sources */,
+				4F9860B62A63C94A00D2898F /* MedicationDetailView.swift in Sources */,
 				4F9860962A6330B200D2898F /* ContentView.swift in Sources */,
 				4F9860A02A6330B300D2898F /* HeartHealth.xcdatamodeld in Sources */,
+				4FB463612A63F1D400DE1137 /* HomeView.swift in Sources */,
+				4FB463692A63F7B900DE1137 /* AboutView.swift in Sources */,
 				4F9860942A6330B200D2898F /* HeartHealthApp.swift in Sources */,
+				4FB4635D2A63DF2700DE1137 /* MedicationScheduleLabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -278,11 +392,17 @@
 				DEVELOPMENT_TEAM = TT5ULK557T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeartHealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Heart Health";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,11 +427,17 @@
 				DEVELOPMENT_TEAM = TT5ULK557T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeartHealth/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Heart Health";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.medical";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
