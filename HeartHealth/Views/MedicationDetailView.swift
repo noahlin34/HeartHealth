@@ -18,18 +18,21 @@ struct MedicationDetailView: View {
     
     @State var showAlert = false
     @State var showingEdit = false
+    let idToGet: UUID
 
-    let name: String
 
     
     
     
     var body: some View {
         
-        let medication = medications.first(where: {$0.name?.caseInsensitiveCompare(name) == .orderedSame})
         
         
-        NavigationStack {
+        let medication = medications.first(where: {$0.id == idToGet})
+        
+            
+            
+            
             VStack(alignment: .leading) {
                 HStack {
                     Image(systemName: "pills")
@@ -37,7 +40,7 @@ struct MedicationDetailView: View {
                         .foregroundColor(.blue)
                     
                     Text("\(medication?.name ?? "name not loaded")")
-                        .font(.largeTitle)
+                        .font(.system(size: 32, design: .rounded))
                         .fontWeight(.bold)
                     
                     Spacer()
@@ -144,22 +147,30 @@ struct MedicationDetailView: View {
                     }
                 }
             }
+            .background(Color(uiColor: .systemGray6))
+
             .sheet(isPresented: $showingEdit) {
-                MedicationEditScreen(name: name).environment(\.managedObjectContext, persistenceController.container.viewContext)
+                MedicationEditScreen(isPresenting: $showingEdit, idToGet: medication?.id ?? UUID()).environment(\.managedObjectContext, persistenceController.container.viewContext)
+                
+    
                 
         }
+            
+            
+            
         }
+        
         
     
         
         
         
-    }
+    
 
 }
 
 struct MedicationDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        MedicationDetailView(name: "Aspirin")
+        MedicationDetailView(idToGet: UUID())
     }
 }

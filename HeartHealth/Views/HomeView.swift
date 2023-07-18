@@ -10,10 +10,16 @@ import SwiftUI
 struct HomeView: View {
     let persistenceController = PersistenceController.shared
     @Environment(\.dismiss) var dismiss
+    @Environment(\.presentationMode) var presentation
+
+
+    
+    
 
     var body: some View {
         
-        NavigationStack {
+       
+        
             ScrollView {
                 HStack {
                     Image(systemName: "heart.fill")
@@ -36,6 +42,7 @@ struct HomeView: View {
                         ) {
                         MenuItemView(title: "Medications", strColor: .blue, image: "pills")
                     }
+                    .isDetailLink(false)
                     .buttonStyle(.plain)
                     .padding(.top)
                     
@@ -83,11 +90,9 @@ struct HomeView: View {
 
         }
         
-        .onAppear() {
-            dismiss()
-        }
-    }
         
+    
+    
 }
 
 struct HomeView_Previews: PreviewProvider {

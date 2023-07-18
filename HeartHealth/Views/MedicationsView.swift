@@ -18,9 +18,18 @@ struct MedicationsView: View {
     
     var body: some View {
         
-        NavigationStack {
+       
             ScrollView {
                 
+                HStack {
+                    Image(systemName: "pills")
+                        .foregroundColor(.blue)
+                        .font(.largeTitle)
+                    Text("Medications")
+                        .font(.system(size: 32, weight: .bold, design: .rounded))
+                    Spacer()
+                }
+                .padding([.top, .leading])
                 if(medications.isEmpty) {
                     VStack {
                         Spacer()
@@ -37,7 +46,7 @@ struct MedicationsView: View {
                     medication in
                     
                     
-                    NavigationLink(destination: MedicationDetailView(name: medication.name ?? "").environment(\.managedObjectContext, persistenceController.container.viewContext)) {
+                    NavigationLink(destination: MedicationDetailView(idToGet: medication.id ?? UUID()).environment(\.managedObjectContext, persistenceController.container.viewContext)) {
                         MedicationLabelView(medicationName: medication.name ?? "", medicationDosage: medication.dosage , medicationDosageUnit: medication.dosageUnit ?? "")
                             .padding(.horizontal)
                     }
@@ -50,7 +59,6 @@ struct MedicationsView: View {
                 .padding()
             }
             .padding()
-            .navigationTitle("Your Medications")
             .toolbar {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Add") {
@@ -63,10 +71,13 @@ struct MedicationsView: View {
                     .interactiveDismissDisabled()
 
             }
+            .background(Color(uiColor: .systemGray6))
+            
         }
         
         
-    }
+        
+    
 }
 
 struct MedicationsView_Previews: PreviewProvider {

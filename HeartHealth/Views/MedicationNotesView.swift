@@ -42,7 +42,9 @@ struct MedicationNotesView: View {
                 let medication = Medication(context: viewContext)
                 
                 medication.id = UUID()
+                
                 medication.name = name
+                
                 medication.dosage = dosage
                 medication.dosageUnit = dosageUnit
                 medication.dosageFrequency = dosageFrequency

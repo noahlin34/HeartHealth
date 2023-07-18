@@ -13,32 +13,44 @@ struct MedicationEditScreen: View {
 
     
     @FetchRequest(sortDescriptors: []) var medications: FetchedResults<Medication>
+    @State var nameField = ""
+    @Binding var isPresenting: Bool
+
     
-    
-    let name: String
+    let idToGet: UUID
     var body: some View {
         
-        let medication = medications.first(where: {$0.name?.caseInsensitiveCompare(name) == .orderedSame})
+        let medication = medications.first(where: {$0.id == idToGet})
         
         
         
         NavigationStack {
+            
             VStack(alignment: .leading) {
                 
                 Text("Medication Name")
-                    .fontWeight(.bold)
-                    .font(.system(size: 18, design: .rounded))
+                    .fontWeight(.semibold)
+                    .font(.system(size: 17, design: .rounded))
                 
                 ZStack(alignment: .leading) {
-                    RoundedRectangle(cornerRadius: 6)
+                    RoundedRectangle(cornerRadius: 13)
                         .foregroundColor(Color(UIColor.systemGroupedBackground))
                     
                     
-                    Text("\(medication?.name ?? "namenoload")")
-                        .padding( )
+                    TextField("Input a name", text: $nameField)
+                        .padding(.horizontal)
+                        .onReceive(nameField.publisher.collect()) {
+                            nameField = String($0.prefix(50))
+                        }
+                    
                 }
                 .frame(maxWidth: 350, maxHeight: 40)
+                .padding()
                 
+                Text("Dosage")
+                    .fontWeight(.semibold)
+                    .font(.system(size: 17, design: .rounded
+                                 ))
                 Spacer()
                 
                 
@@ -53,20 +65,40 @@ struct MedicationEditScreen: View {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") {
                         
+                        
+
+                        medication?.name = $nameField.wrappedValue
+                        
+                        try? viewContext.save()
+                        
+                        
+                        
+                        isPresenting = false
                     }
                 }
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") {
                         
+                        isPresenting = false
+                        
                     }
                 }
+                
+            }
+            .padding()
+            
+    
         }
+        
+        .onAppear() {
+            nameField = medication?.name ?? ""
+
         }
     }
 }
 
 struct MedicationEditScreen_Previews: PreviewProvider {
     static var previews: some View {
-        MedicationEditScreen(name: "Aspirin")
+        MedicationEditScreen(isPresenting: .constant(true), idToGet: UUID())
     }
 }
