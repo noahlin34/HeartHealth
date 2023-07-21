@@ -49,6 +49,7 @@ struct MedicationScheduleLabelView: View {
             .padding()
             
         }
+        .padding(.top, -10)
         .frame(width: 350, height: 150    )
     }
 }

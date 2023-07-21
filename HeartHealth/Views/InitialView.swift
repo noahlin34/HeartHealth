@@ -21,19 +21,7 @@ struct InitialView: View {
     
     var body: some View {
        
-        
-        var handler: Binding<Int> { Binding(
-                get: { self.tabSelection },
-                set: {
-                        if $0 == self.tabSelection {
-                            
-                            print("tapped twice")
-                                tappedTwice = true
-                        }
-                        self.tabSelection = $0
-                }
-        )}
-        
+
         
         
         var theHandler: Binding<Int> {
@@ -59,9 +47,7 @@ struct InitialView: View {
             NavigationView {
                 HomeView()
                     .id(home)
-                    .onChange(of: selectedTab, perform: {
-                        tab in
-                    })
+                   
             }
             .tabItem {
                 Image(systemName: "house")

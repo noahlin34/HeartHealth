@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F68B0BC2A68DEFC0057E3B6 /* ContactLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */; };
+		4F68B0BE2A68E0590057E3B6 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */; };
+		4F68B0C02A68E5920057E3B6 /* ContactNameAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */; };
+		4F68B0C42A68E7B70057E3B6 /* ContactPositionAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0C32A68E7B70057E3B6 /* ContactPositionAddView.swift */; };
+		4F68B0C62A68FB5E0057E3B6 /* ContactPhoneAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0C52A68FB5E0057E3B6 /* ContactPhoneAddView.swift */; };
+		4F68B0C82A68FE3B0057E3B6 /* ContactEmailAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0C72A68FE3B0057E3B6 /* ContactEmailAddView.swift */; };
+		4F68B0CA2A68FFFE0057E3B6 /* ContactNotesAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0C92A68FFFE0057E3B6 /* ContactNotesAddView.swift */; };
+		4F68B0CC2A6902580057E3B6 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0CB2A6902580057E3B6 /* ContactDetailView.swift */; };
+		4F8A55F22A69F7D800ECE41F /* ContactEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A55F12A69F7D800ECE41F /* ContactEditView.swift */; };
 		4F9860942A6330B200D2898F /* HeartHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860932A6330B200D2898F /* HeartHealthApp.swift */; };
-		4F9860962A6330B200D2898F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860952A6330B200D2898F /* ContentView.swift */; };
 		4F9860982A6330B300D2898F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9860972A6330B300D2898F /* Assets.xcassets */; };
 		4F98609B2A6330B300D2898F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F98609A2A6330B300D2898F /* Preview Assets.xcassets */; };
 		4F98609D2A6330B300D2898F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F98609C2A6330B300D2898F /* Persistence.swift */; };
@@ -39,9 +47,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLabelView.swift; sourceTree = "<group>"; };
+		4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNameAddView.swift; sourceTree = "<group>"; };
+		4F68B0C32A68E7B70057E3B6 /* ContactPositionAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPositionAddView.swift; sourceTree = "<group>"; };
+		4F68B0C52A68FB5E0057E3B6 /* ContactPhoneAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPhoneAddView.swift; sourceTree = "<group>"; };
+		4F68B0C72A68FE3B0057E3B6 /* ContactEmailAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEmailAddView.swift; sourceTree = "<group>"; };
+		4F68B0C92A68FFFE0057E3B6 /* ContactNotesAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNotesAddView.swift; sourceTree = "<group>"; };
+		4F68B0CB2A6902580057E3B6 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		4F8A55F12A69F7D800ECE41F /* ContactEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditView.swift; sourceTree = "<group>"; };
 		4F9860902A6330B200D2898F /* HeartHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9860932A6330B200D2898F /* HeartHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartHealthApp.swift; sourceTree = "<group>"; };
-		4F9860952A6330B200D2898F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F9860972A6330B300D2898F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F98609A2A6330B300D2898F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F98609C2A6330B300D2898F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -85,6 +101,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F68B0C12A68E5D80057E3B6 /* Medications */ = {
+			isa = PBXGroup;
+			children = (
+				4F9860A82A6339A900D2898F /* MedicationLabelView.swift */,
+				4F9860A62A6332DB00D2898F /* MedicationsView.swift */,
+				4F9860B52A63C94A00D2898F /* MedicationDetailView.swift */,
+				4FB4635C2A63DF2700DE1137 /* MedicationScheduleLabelView.swift */,
+				4FB4635A2A63DC7E00DE1137 /* MedicationDetailLabelView.swift */,
+				4F9860AA2A634C5500D2898F /* MedicationAddView.swift */,
+				4F9860AC2A63543700D2898F /* MedicationDosageView.swift */,
+				4F9860B12A63B08A00D2898F /* MedicationFrequencyView.swift */,
+				4F9860B32A63B57F00D2898F /* MedicationPurposeView.swift */,
+				4F9860AE2A6394F700D2898F /* MedicationNotesView.swift */,
+				4FB4636A2A6515D900DE1137 /* MedicationEditScreen.swift */,
+			);
+			path = Medications;
+			sourceTree = "<group>";
+		};
+		4F68B0C22A68E5ED0057E3B6 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */,
+				4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */,
+				4F8A55F12A69F7D800ECE41F /* ContactEditView.swift */,
+				4F68B0CB2A6902580057E3B6 /* ContactDetailView.swift */,
+				4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */,
+				4F68B0C32A68E7B70057E3B6 /* ContactPositionAddView.swift */,
+				4F68B0C52A68FB5E0057E3B6 /* ContactPhoneAddView.swift */,
+				4F68B0C72A68FE3B0057E3B6 /* ContactEmailAddView.swift */,
+				4F68B0C92A68FFFE0057E3B6 /* ContactNotesAddView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
 		4F9860872A6330B200D2898F = {
 			isa = PBXGroup;
 			children = (
@@ -127,23 +177,13 @@
 		4FB4636C2A651A9400DE1137 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4F9860A82A6339A900D2898F /* MedicationLabelView.swift */,
-				4F9860A62A6332DB00D2898F /* MedicationsView.swift */,
-				4F9860B52A63C94A00D2898F /* MedicationDetailView.swift */,
-				4FB4636A2A6515D900DE1137 /* MedicationEditScreen.swift */,
+				4F68B0C22A68E5ED0057E3B6 /* Contacts */,
+				4F68B0C12A68E5D80057E3B6 /* Medications */,
 				4FB463602A63F1D400DE1137 /* HomeView.swift */,
 				4FB463642A63F39000DE1137 /* MenuItemView.swift */,
 				4FB463622A63F2E700DE1137 /* InitialView.swift */,
 				4FB463662A63F7B400DE1137 /* ProfileView.swift */,
 				4FB463682A63F7B900DE1137 /* AboutView.swift */,
-				4FB4635C2A63DF2700DE1137 /* MedicationScheduleLabelView.swift */,
-				4FB4635A2A63DC7E00DE1137 /* MedicationDetailLabelView.swift */,
-				4F9860AA2A634C5500D2898F /* MedicationAddView.swift */,
-				4F9860AC2A63543700D2898F /* MedicationDosageView.swift */,
-				4F9860B12A63B08A00D2898F /* MedicationFrequencyView.swift */,
-				4F9860B32A63B57F00D2898F /* MedicationPurposeView.swift */,
-				4F9860AE2A6394F700D2898F /* MedicationNotesView.swift */,
-				4F9860952A6330B200D2898F /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,23 +281,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F68B0C82A68FE3B0057E3B6 /* ContactEmailAddView.swift in Sources */,
 				4F9860AD2A63543700D2898F /* MedicationDosageView.swift in Sources */,
 				4FB463632A63F2E700DE1137 /* InitialView.swift in Sources */,
 				4F9860AF2A6394F700D2898F /* MedicationNotesView.swift in Sources */,
+				4F68B0CA2A68FFFE0057E3B6 /* ContactNotesAddView.swift in Sources */,
+				4F8A55F22A69F7D800ECE41F /* ContactEditView.swift in Sources */,
 				4F98609D2A6330B300D2898F /* Persistence.swift in Sources */,
 				4F9860A72A6332DB00D2898F /* MedicationsView.swift in Sources */,
 				4F9860B22A63B08A00D2898F /* MedicationFrequencyView.swift in Sources */,
 				4F9860B42A63B57F00D2898F /* MedicationPurposeView.swift in Sources */,
 				4FB463652A63F39000DE1137 /* MenuItemView.swift in Sources */,
 				4FB4636B2A6515D900DE1137 /* MedicationEditScreen.swift in Sources */,
+				4F68B0BE2A68E0590057E3B6 /* ContactsView.swift in Sources */,
 				4FB4635B2A63DC7E00DE1137 /* MedicationDetailLabelView.swift in Sources */,
 				4F9860A92A6339A900D2898F /* MedicationLabelView.swift in Sources */,
 				4FB463672A63F7B400DE1137 /* ProfileView.swift in Sources */,
 				4F9860AB2A634C5500D2898F /* MedicationAddView.swift in Sources */,
+				4F68B0CC2A6902580057E3B6 /* ContactDetailView.swift in Sources */,
 				4F9860B62A63C94A00D2898F /* MedicationDetailView.swift in Sources */,
-				4F9860962A6330B200D2898F /* ContentView.swift in Sources */,
+				4F68B0C02A68E5920057E3B6 /* ContactNameAddView.swift in Sources */,
 				4F9860A02A6330B300D2898F /* HeartHealth.xcdatamodeld in Sources */,
+				4F68B0C62A68FB5E0057E3B6 /* ContactPhoneAddView.swift in Sources */,
 				4FB463612A63F1D400DE1137 /* HomeView.swift in Sources */,
+				4F68B0BC2A68DEFC0057E3B6 /* ContactLabelView.swift in Sources */,
+				4F68B0C42A68E7B70057E3B6 /* ContactPositionAddView.swift in Sources */,
 				4FB463692A63F7B900DE1137 /* AboutView.swift in Sources */,
 				4F9860942A6330B200D2898F /* HeartHealthApp.swift in Sources */,
 				4FB4635D2A63DF2700DE1137 /* MedicationScheduleLabelView.swift in Sources */,

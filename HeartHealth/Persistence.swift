@@ -8,19 +8,34 @@
 import CoreData
 
 struct PersistenceController {
+    
+    
     static let shared = PersistenceController()
 
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
         
-            let newItem = Item(context: viewContext)
-        newItem.timestamp = Date()
         
-        let aspirin = Medication(context: viewContext)
-        aspirin.name = "Aspirin"
-        aspirin.id = UUID()
-        aspirin.dosage = 0.2
+    
+        let contact = Contact(context: viewContext)
+        contact.name = "Noah Lin"
+        contact.id = UUID()
+        contact.email = "nglin34@gmail.com"
+        contact.notes = "notes"
+        contact.number = "123123123"
+        contact.numberExtension = 1233
+        contact.position = "doctor"
+        
+        let medicine = Medication(context: viewContext)
+        medicine.id = UUID()
+        medicine.dateAdded = Date()
+        medicine.dosage = 2
+        medicine.dosageFrequency = "Every Day"
+        medicine.name = "Aspirin"
+        medicine.notes = "wejir"
+
+        
         
         
         do {

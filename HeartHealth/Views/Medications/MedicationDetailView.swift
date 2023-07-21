@@ -91,30 +91,31 @@ struct MedicationDetailView: View {
                         Text("Delete Medication")
                             .font(Font.custom("LeagueSpartan-Regular", size: 20))
 
-                            .frame(width: 250, height: 30)
+                            .frame(width: 325, height: 30)
                             .foregroundColor(.red)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.white)
-                    .shadow(radius: 3, y: 3)
                     Spacer()
                 }
                 .padding(.top)
                 
                 HStack {
                     Spacer()
-                    Button {
+   
+                        Button {
+                            
+                        } label: {
+                            Text("Archive Medication")
+                                .font(Font.custom("LeagueSpartan-Regular", size: 20))
+                                .foregroundColor(.blue)
+                                .frame(width: 325, height: 30)
+                            
+                        }
+                        .tint(.white)
                         
-                    } label: {
-                        Text("Archive Medication")
-                            .font(Font.custom("LeagueSpartan-Regular", size: 20))
-                            .foregroundColor(.blue)
-                            .frame(width: 250, height: 30)
-                        
-                    }
-                    .tint(.white)
-                    .shadow(radius: 3, y: 3)
                     .buttonStyle(.borderedProminent)
+                    
                     Spacer()
                 }
                 

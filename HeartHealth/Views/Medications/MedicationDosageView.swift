@@ -35,6 +35,7 @@ struct MedicationDosageView: View {
                             Text("\(unit)")
                         }
                     }
+                    .pickerStyle(.inline)
                     .padding()
                 }
                 

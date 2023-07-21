@@ -51,7 +51,10 @@ struct MedicationDetailLabelView: View {
             .padding()
             
         }
-        .frame(minWidth: 350, maxWidth: 350, maxHeight: 400)
+        .padding(.top, -10)
+        .frame(minWidth: 350, maxWidth: 350, minHeight: 0, maxHeight: 400)
+        
+        
     }
 }
 

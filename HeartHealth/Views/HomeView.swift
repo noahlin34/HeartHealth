@@ -9,8 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     let persistenceController = PersistenceController.shared
-    @Environment(\.dismiss) var dismiss
-    @Environment(\.presentationMode) var presentation
+
 
 
     
@@ -59,7 +58,7 @@ struct HomeView: View {
 
 
                     
-                    NavigationLink(destination: MedicationsView()    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    NavigationLink(destination: ContactsView().environment(\.managedObjectContext, persistenceController.container.viewContext)
 
                         ) {
                         MenuItemView(title: "Medical Contacts", strColor: .mint, image: "stethoscope")
