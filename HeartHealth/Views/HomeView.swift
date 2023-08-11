@@ -36,7 +36,7 @@ struct HomeView: View {
                 
                 VStack {
                     
-                    NavigationLink(destination: MedicationsView()    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    NavigationLink(destination: MedicationsView().environment(\.managedObjectContext, persistenceController.container.viewContext)
 
                         ) {
                         MenuItemView(title: "Medications", strColor: .blue, image: "pills")
@@ -45,7 +45,7 @@ struct HomeView: View {
                     .buttonStyle(.plain)
                     .padding(.top)
                     
-                    NavigationLink(destination: MedicationsView()    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                    NavigationLink(destination: AppointmentsView().environment(\.managedObjectContext, persistenceController.container.viewContext)
 
                         ) {
                         MenuItemView(title: "Appointments", strColor: .red, image: "calendar")

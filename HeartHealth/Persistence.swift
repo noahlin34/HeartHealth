@@ -35,6 +35,12 @@ struct PersistenceController {
         medicine.name = "Aspirin"
         medicine.notes = "wejir"
 
+        let appointment = Appointment(context: viewContext)
+        appointment.id = UUID()
+        appointment.date = Date()
+        appointment.category = "Surgery"
+        appointment.questions = "UHH STUFF?"
+        appointment.notes = "Some notes"
         
         
         
