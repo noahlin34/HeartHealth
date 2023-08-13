@@ -13,6 +13,7 @@ struct AppointmentsView: View {
 
     @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(sortDescriptors: []) var appointments: FetchedResults<Appointment>
+    @State var isPresentingAddView = false;
     
     
     
@@ -44,11 +45,14 @@ struct AppointmentsView: View {
         .toolbar {
             ToolbarItem(placement: .confirmationAction) {
                 
-                NavigationLink(destination: AboutView()) {
-                    Text("Add")
+                Button("Add") {
+                    isPresentingAddView = true;
                 }
                 
             }
+        }
+        .sheet(isPresented: $isPresentingAddView) {
+            AppointmentInitialAddView(isPresentingAddMedication: $isPresentingAddView)
         }
 
 

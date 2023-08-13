@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5600A82A894DD9001B54F5 /* AppointmentInitialAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */; };
+		4F5600AC2A89533A001B54F5 /* AppointmentDateAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */; };
 		4F68B0BC2A68DEFC0057E3B6 /* ContactLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */; };
 		4F68B0BE2A68E0590057E3B6 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */; };
 		4F68B0C02A68E5920057E3B6 /* ContactNameAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentInitialAddView.swift; sourceTree = "<group>"; };
+		4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDateAddView.swift; sourceTree = "<group>"; };
 		4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLabelView.swift; sourceTree = "<group>"; };
 		4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNameAddView.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				4F8A55F42A6CCD4400ECE41F /* AppointmentsView.swift */,
 				4F8A55F62A717B2B00ECE41F /* AppointmentCardView.swift */,
 				4F8A55F82A718DF500ECE41F /* AppointmentDetailView.swift */,
+				4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */,
+				4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */,
 			);
 			path = Appointments;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				4FB463652A63F39000DE1137 /* MenuItemView.swift in Sources */,
 				4FB4636B2A6515D900DE1137 /* MedicationEditScreen.swift in Sources */,
 				4F8A55F92A718DF500ECE41F /* AppointmentDetailView.swift in Sources */,
+				4F5600AC2A89533A001B54F5 /* AppointmentDateAddView.swift in Sources */,
 				4F68B0BE2A68E0590057E3B6 /* ContactsView.swift in Sources */,
 				4FB4635B2A63DC7E00DE1137 /* MedicationDetailLabelView.swift in Sources */,
 				4F9860A92A6339A900D2898F /* MedicationLabelView.swift in Sources */,
@@ -321,6 +328,7 @@
 				4F68B0CC2A6902580057E3B6 /* ContactDetailView.swift in Sources */,
 				4F9860B62A63C94A00D2898F /* MedicationDetailView.swift in Sources */,
 				4F68B0C02A68E5920057E3B6 /* ContactNameAddView.swift in Sources */,
+				4F5600A82A894DD9001B54F5 /* AppointmentInitialAddView.swift in Sources */,
 				4F9860A02A6330B300D2898F /* HeartHealth.xcdatamodeld in Sources */,
 				4F68B0C62A68FB5E0057E3B6 /* ContactPhoneAddView.swift in Sources */,
 				4FB463612A63F1D400DE1137 /* HomeView.swift in Sources */,
