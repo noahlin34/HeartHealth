@@ -10,11 +10,6 @@ import SwiftUI
 struct HomeView: View {
     let persistenceController = PersistenceController.shared
 
-
-
-    
-    
-
     var body: some View {
         
        
