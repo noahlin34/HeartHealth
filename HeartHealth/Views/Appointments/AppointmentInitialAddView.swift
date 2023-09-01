@@ -40,11 +40,12 @@ struct AppointmentInitialAddView: View {
                         TextEditor(text: $customCategory)
                             .background(Color(uiColor: .systemGroupedBackground))
                             .padding(.horizontal)
+                            .frame(maxHeight: 200)
                             
                     }
                 }
                 
-                NavigationLink(destination: AboutView()) {
+                NavigationLink(destination: AppointmentDateAddView(category: category)) {
                     Text("Next")
                         .frame(width: 320)
                 }
@@ -53,6 +54,7 @@ struct AppointmentInitialAddView: View {
                 
                 Spacer()
             }
+            .padding()
         }
         
     }

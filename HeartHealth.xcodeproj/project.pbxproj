@@ -49,6 +49,8 @@
 		4FB4637C2A651B4A00DE1137 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */; };
 		4FB4637D2A651B4E00DE1137 /* LeagueSpartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463742A651B2500DE1137 /* LeagueSpartan-Thin.ttf */; };
 		4FB4637E2A651B5100DE1137 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463702A651B2500DE1137 /* LeagueSpartan-SemiBold.ttf */; };
+		4FDEA1D72A97CF4B007E7B95 /* AppointmentNameAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */; };
+		4FDEA1D92A97D0DB007E7B95 /* AppointmentLocationAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +100,8 @@
 		4FB463752A651B2500DE1137 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
 		4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Regular.ttf"; path = "HeartHealth/Assets/LeagueSpartan-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		4FB463772A651B2500DE1137 /* LeagueSpartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.ttf"; sourceTree = "<group>"; };
+		4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentNameAdd.swift; sourceTree = "<group>"; };
+		4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentLocationAddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 				4F8A55F82A718DF500ECE41F /* AppointmentDetailView.swift */,
 				4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */,
 				4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */,
+				4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */,
+				4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */,
 			);
 			path = Appointments;
 			sourceTree = "<group>";
@@ -304,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDEA1D92A97D0DB007E7B95 /* AppointmentLocationAddView.swift in Sources */,
+				4FDEA1D72A97CF4B007E7B95 /* AppointmentNameAdd.swift in Sources */,
 				4F68B0C82A68FE3B0057E3B6 /* ContactEmailAddView.swift in Sources */,
 				4F9860AD2A63543700D2898F /* MedicationDosageView.swift in Sources */,
 				4F8A55F72A717B2B00ECE41F /* AppointmentCardView.swift in Sources */,
