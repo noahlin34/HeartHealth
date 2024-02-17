@@ -43,6 +43,9 @@ struct PersistenceController {
         appointment.notes = "Some notes"
         
         
+        let user = User(context: viewContext)
+        user.name = "Noah"
+        
         
         do {
             try viewContext.save()

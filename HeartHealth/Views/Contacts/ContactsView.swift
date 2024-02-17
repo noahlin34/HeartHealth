@@ -35,7 +35,7 @@ struct ContactsView: View {
                 
             if(contacts.isEmpty) {
                 VStack {
-                    Text("Hmm, no contacts. Either you have no contacts, or I messed up somewhere... Try pressing the add button")
+                    Text("Hmm, no contacts.")
                         .fontWeight(.light)
                         .foregroundColor(.gray)
                         .padding()
