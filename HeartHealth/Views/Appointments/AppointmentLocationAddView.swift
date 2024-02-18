@@ -54,8 +54,14 @@ struct AppointmentLocationAddView: View {
                     .keyboardType(.asciiCapableNumberPad)
             }
             
+            NavigationLink(destination: AppointmentAddInformationView(date: date, name: name, category: category, location: location, inPersonLocation: inPersonLocation, questions: "")) {
+                Text("Next")
+                    .frame(width: 320)
+            }
+            .buttonStyle(.borderedProminent)
+            .padding(.top)
             Spacer()
-            
+
         }
         .padding()
     }

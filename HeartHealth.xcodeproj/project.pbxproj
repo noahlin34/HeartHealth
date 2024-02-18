@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2E2D022B817EDE003467B0 /* AppointmentAddInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E2D012B817EDE003467B0 /* AppointmentAddInformationView.swift */; };
 		4F5600A82A894DD9001B54F5 /* AppointmentInitialAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */; };
 		4F5600AC2A89533A001B54F5 /* AppointmentDateAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */; };
 		4F68B0BC2A68DEFC0057E3B6 /* ContactLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F2E2D012B817EDE003467B0 /* AppointmentAddInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAddInformationView.swift; sourceTree = "<group>"; };
 		4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentInitialAddView.swift; sourceTree = "<group>"; };
 		4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDateAddView.swift; sourceTree = "<group>"; };
 		4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLabelView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */,
 				4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */,
 				4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */,
+				4F2E2D012B817EDE003467B0 /* AppointmentAddInformationView.swift */,
 			);
 			path = Appointments;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				4FDEA1D92A97D0DB007E7B95 /* AppointmentLocationAddView.swift in Sources */,
 				4FDEA1D72A97CF4B007E7B95 /* AppointmentNameAdd.swift in Sources */,
 				4F68B0C82A68FE3B0057E3B6 /* ContactEmailAddView.swift in Sources */,
+				4F2E2D022B817EDE003467B0 /* AppointmentAddInformationView.swift in Sources */,
 				4F9860AD2A63543700D2898F /* MedicationDosageView.swift in Sources */,
 				4F8A55F72A717B2B00ECE41F /* AppointmentCardView.swift in Sources */,
 				4FB463632A63F2E700DE1137 /* InitialView.swift in Sources */,
