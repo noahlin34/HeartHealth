@@ -21,6 +21,7 @@ struct AppointmentAddInformationView: View {
     
     
     var body: some View {
+        Text("test")
         TextField("Input any questions you want to remember to ask", text: $questions)
     }
 }
