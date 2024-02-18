@@ -12,7 +12,8 @@ struct AppointmentNameAdd: View {
     
     var category: String
     var date: Date
-    
+    @Binding var isPresentingAddMedication: Bool
+
     @State var name = "Eg. Dr. Joe Mama"
     
     
@@ -31,7 +32,7 @@ struct AppointmentNameAdd: View {
             
             
             
-            NavigationLink(destination: AppointmentLocationAddView(date: date, name: name, category: category)) {
+            NavigationLink(destination: AppointmentLocationAddView(date: date, name: name, category: category, isPresentingAddMedication: $isPresentingAddMedication)) {
                 Text("Next")
                     .frame(width: 320)
             }
@@ -49,6 +50,6 @@ struct AppointmentNameAdd: View {
 
 struct AppointmentNameAdd_Previews: PreviewProvider {
     static var previews: some View {
-        AppointmentNameAdd(category: "testcategory", date: Date())
+        AppointmentNameAdd(category: "testcategory", date: Date(), isPresentingAddMedication: .constant(true))
     }
 }

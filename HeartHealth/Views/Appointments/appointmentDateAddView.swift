@@ -12,7 +12,8 @@ struct AppointmentDateAddView: View {
     var category: String
     
     @State var date = Date()
-    
+    @Binding var isPresentingAddMedication: Bool
+
     var body: some View {
         
         VStack {
@@ -32,7 +33,7 @@ struct AppointmentDateAddView: View {
             DatePicker("", selection: $date)
                 .datePickerStyle(.graphical)
             
-            NavigationLink(destination: AppointmentNameAdd(category: category, date: date)) {
+            NavigationLink(destination: AppointmentNameAdd(category: category, date: date, isPresentingAddMedication: $isPresentingAddMedication)) {
                 Text("Next")
                     .frame(width: 320)
             }
@@ -48,6 +49,6 @@ struct AppointmentDateAddView: View {
 
 struct AppointmentDateAddView_Previews: PreviewProvider {
     static var previews: some View {
-        AppointmentDateAddView(category: "test")
+        AppointmentDateAddView(category: "test", isPresentingAddMedication: .constant(true))
     }
 }

@@ -17,7 +17,8 @@ struct AppointmentLocationAddView: View {
     
     @State var location = "In Person"
     @State var inPersonLocation = ""
-    
+    @Binding var isPresentingAddMedication: Bool
+
     let locationOptions = ["In Person", "Online", "Telephone"]
 
     
@@ -54,7 +55,7 @@ struct AppointmentLocationAddView: View {
                     .keyboardType(.asciiCapableNumberPad)
             }
             
-            NavigationLink(destination: AppointmentAddInformationView(date: date, name: name, category: category, location: location, inPersonLocation: inPersonLocation, questions: "")) {
+            NavigationLink(destination: AppointmentAddInformationView(date: date, name: name, category: category, location: location, inPersonLocation: inPersonLocation, questions: "", isPresentingAddMedication: $isPresentingAddMedication)) {
                 Text("Next")
                     .frame(width: 320)
             }
@@ -69,6 +70,6 @@ struct AppointmentLocationAddView: View {
 
 struct AppointmentLocationAddView_Previews: PreviewProvider {
     static var previews: some View {
-        AppointmentLocationAddView(date: Date(), name: "nameforthis", category: "categoryforthis")
+        AppointmentLocationAddView(date: Date(), name: "nameforthis", category: "categoryforthis", isPresentingAddMedication: .constant(true))
     }
 }

@@ -45,7 +45,7 @@ struct AppointmentInitialAddView: View {
                     }
                 }
                 
-                NavigationLink(destination: AppointmentDateAddView(category: category)) {
+                NavigationLink(destination: AppointmentDateAddView(category: category, isPresentingAddMedication: $isPresentingAddMedication)) {
                     Text("Next")
                         .frame(width: 320)
                 }
