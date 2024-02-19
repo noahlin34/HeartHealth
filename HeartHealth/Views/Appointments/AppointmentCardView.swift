@@ -29,7 +29,7 @@ struct AppointmentCardView: View {
                     Text(appointment.date ?? Date(), style: .date)
                         .font(.custom("LeagueSpartan-Regular", size: 20))
                     Spacer()
-                    Text(appointment.time ?? "3:10 pm")
+                    Text(appointment.date?.formatted(date: .omitted, time: .shortened) ?? "3:10 pm")
                         .font(.custom("LeagueSpartan-Regular", size: 20))
                 }
                 HStack {
@@ -55,7 +55,6 @@ struct AppointmentCardView_Previews: PreviewProvider {
         appointment.category = "surgery"
         appointment.date = Date()
         appointment.location = "8 Spanhouse  Crescent"
-        appointment.time = "3:10 pm"
         
         
         return AppointmentCardView(appointment: appointment)

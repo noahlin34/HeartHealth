@@ -63,8 +63,9 @@ struct AppointmentAddInformationView: View {
             appointment.id = UUID()
             appointment.date = date
             appointment.category = category
+            appointment.location = location
+            appointment.inpersonlocation = inPersonLocation
             appointment.notes = $questions.wrappedValue
-            
             try? viewContext.save()
             isPresentingAddMedication = false
         } label: {

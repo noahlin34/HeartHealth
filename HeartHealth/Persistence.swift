@@ -41,6 +41,7 @@ struct PersistenceController {
         appointment.category = "Surgery"
         appointment.questions = "UHH STUFF?"
         appointment.notes = "Some notes"
+        appointment.inpersonlocation = "something"
         
         
         let user = User(context: viewContext)

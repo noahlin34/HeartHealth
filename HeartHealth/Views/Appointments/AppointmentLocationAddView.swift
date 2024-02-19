@@ -55,7 +55,7 @@ struct AppointmentLocationAddView: View {
                     .keyboardType(.asciiCapableNumberPad)
             }
             
-            NavigationLink(destination: AppointmentAddInformationView(date: date, name: name, category: category, location: location, inPersonLocation: inPersonLocation, questions: "", isPresentingAddMedication: $isPresentingAddMedication)) {
+            NavigationLink(destination: AppointmentAddInformationView(date: date, name: name, category: category, location: $location.wrappedValue, inPersonLocation: $inPersonLocation.wrappedValue, questions: "", isPresentingAddMedication: $isPresentingAddMedication)) {
                 Text("Next")
                     .frame(width: 320)
             }
@@ -73,3 +73,4 @@ struct AppointmentLocationAddView_Previews: PreviewProvider {
         AppointmentLocationAddView(date: Date(), name: "nameforthis", category: "categoryforthis", isPresentingAddMedication: .constant(true))
     }
 }
+

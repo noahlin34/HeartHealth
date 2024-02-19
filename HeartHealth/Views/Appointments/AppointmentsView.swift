@@ -34,7 +34,7 @@ struct AppointmentsView: View {
             
             ForEach(appointments) {
                 appointment in
-                NavigationLink(destination: ContactsView()) {
+                NavigationLink(destination: AppointmentDetailView(appointment: appointment)) {
                     AppointmentCardView(appointment: appointment)
                 }
                 .buttonStyle(.plain)
@@ -52,7 +52,7 @@ struct AppointmentsView: View {
             }
         }
         .sheet(isPresented: $isPresentingAddView) {
-            AppointmentInitialAddView(isPresentingAddMedication: $isPresentingAddView)
+            AppointmentInitialAddView(isPresentingAddMedication: $isPresentingAddView, customCategory: "")
         }
 
 

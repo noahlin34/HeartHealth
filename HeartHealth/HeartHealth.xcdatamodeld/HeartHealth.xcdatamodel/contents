@@ -4,10 +4,10 @@
         <attribute name="category" optional="YES" attributeType="String"/>
         <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="inpersonlocation" optional="YES" attributeType="String"/>
         <attribute name="location" optional="YES" attributeType="String"/>
         <attribute name="notes" optional="YES" attributeType="String"/>
         <attribute name="questions" optional="YES" attributeType="String"/>
-        <attribute name="time" optional="YES" attributeType="String"/>
     </entity>
     <entity name="Contact" representedClassName="Contact" syncable="YES" codeGenerationType="class">
         <attribute name="email" optional="YES" attributeType="String"/>

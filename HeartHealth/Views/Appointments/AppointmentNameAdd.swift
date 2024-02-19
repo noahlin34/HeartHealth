@@ -14,7 +14,7 @@ struct AppointmentNameAdd: View {
     var date: Date
     @Binding var isPresentingAddMedication: Bool
 
-    @State var name = "Eg. Dr. Joe Mama"
+    @State var name = ""
     
     
     
@@ -27,8 +27,16 @@ struct AppointmentNameAdd: View {
             
             
             
+            ZStack {
+                
+                if name.isEmpty {
+                    Text("Enter the name here")
+                }
+                
                 TextEditor(text: $name)
-                .frame(maxHeight: 132)
+                    .frame(maxHeight: 132)
+                    .opacity(name.isEmpty ? 0.25: 1)
+            }
             
             
             

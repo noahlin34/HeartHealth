@@ -13,7 +13,7 @@ struct AppointmentInitialAddView: View {
     
     @State var category = "Testing"
     
-    @State var customCategory = "E.g: Check up, medical review, etc."
+    @State var customCategory: String
     
     let categoryOptions = ["Testing", "Check-Up", "Procedure", "Custom"]
     
@@ -37,22 +37,48 @@ struct AppointmentInitialAddView: View {
                 
                 if(category == "Custom") {
                     VStack {
-                        TextEditor(text: $customCategory)
-                            .background(Color(uiColor: .systemGroupedBackground))
-                            .padding(.horizontal)
+                        ZStack {
+                            
+                            if customCategory.isEmpty {
+                                Text("Eg. surgery consult, other")
+                            }
+                            
+                            TextEditor(text: $customCategory)
+                                .padding(.horizontal)
+                                .frame(maxHeight: 300)
+                                .opacity(customCategory.isEmpty ? 0.25: 1 )
+                         
+
                             .frame(maxHeight: 200)
+                        }
                             
                     }
                 }
                 
-                NavigationLink(destination: AppointmentDateAddView(category: category, isPresentingAddMedication: $isPresentingAddMedication)) {
-                    Text("Next")
-                        .frame(width: 320)
+                
+                //this if statement changes the navigationLink to pass a different category variable depending on if it is custom or not.
+                if category == "Custom" {
+                    NavigationLink(destination: AppointmentDateAddView(category: customCategory, isPresentingAddMedication: $isPresentingAddMedication)) {
+                        Text("Next")
+                            .frame(width: 320)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    
+                    
+                    Spacer()
+                } else {
+                    NavigationLink(destination: AppointmentDateAddView(category: category, isPresentingAddMedication: $isPresentingAddMedication)) {
+                        Text("Next")
+                            .frame(width: 320)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    
+                    
+                    Spacer()
                 }
-                .buttonStyle(.borderedProminent)
                 
                 
-                Spacer()
+               
             }
             .padding()
         }
@@ -62,6 +88,6 @@ struct AppointmentInitialAddView: View {
 
 struct AppointmentInitialAddView_Previews: PreviewProvider {
     static var previews: some View {
-        AppointmentInitialAddView(isPresentingAddMedication: .constant(true))
+        AppointmentInitialAddView(isPresentingAddMedication: .constant(true), customCategory: "")
     }
 }

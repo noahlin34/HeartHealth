@@ -31,7 +31,7 @@ struct AppointmentDetailView: View {
                         .fontWeight(.bold)
                         .font(.system(size: 20, design: .rounded))
                     
-                    Text(appointment.time ?? "timenotfound")
+                    Text(appointment.date?.formatted(date: .omitted, time: .shortened) ?? "timenotfound")
                         .fontWeight(.bold)
                         .font(.system(size: 20, design: .rounded))
                 }
@@ -60,6 +60,8 @@ struct AppointmentDetailView: View {
                             .frame(width: 288)
                             .foregroundColor(.black)
                         Text(appointment.location ?? "locationnotfound")
+                            .font(.custom("LeagueSpartan-Regular", size: 20))
+                        Text(appointment.inpersonlocation ?? "inpersonlocationonotfound")
                             .font(.custom("LeagueSpartan-Regular", size: 20))
                     }
                 }
@@ -139,6 +141,7 @@ struct AppointmentDetailView_Previews: PreviewProvider {
         
         appointment.id = UUID()
         appointment.category = "Surgery"
+        
         
         
        return AppointmentDetailView(appointment: appointment)
