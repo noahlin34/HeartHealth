@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F2E2D022B817EDE003467B0 /* AppointmentAddInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E2D012B817EDE003467B0 /* AppointmentAddInformationView.swift */; };
-		4F5600A82A894DD9001B54F5 /* AppointmentInitialAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */; };
-		4F5600AC2A89533A001B54F5 /* AppointmentDateAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */; };
+		4F0FC0042BE694E10018BC22 /* AppointmentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0FC0032BE694E10018BC22 /* AppointmentData.swift */; };
 		4F68B0BC2A68DEFC0057E3B6 /* ContactLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */; };
 		4F68B0BE2A68E0590057E3B6 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */; };
 		4F68B0C02A68E5920057E3B6 /* ContactNameAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */; };
@@ -21,7 +19,6 @@
 		4F8A55F22A69F7D800ECE41F /* ContactEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A55F12A69F7D800ECE41F /* ContactEditView.swift */; };
 		4F8A55F52A6CCD4400ECE41F /* AppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A55F42A6CCD4400ECE41F /* AppointmentsView.swift */; };
 		4F8A55F72A717B2B00ECE41F /* AppointmentCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A55F62A717B2B00ECE41F /* AppointmentCardView.swift */; };
-		4F8A55F92A718DF500ECE41F /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A55F82A718DF500ECE41F /* AppointmentDetailView.swift */; };
 		4F9860942A6330B200D2898F /* HeartHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9860932A6330B200D2898F /* HeartHealthApp.swift */; };
 		4F9860982A6330B300D2898F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F9860972A6330B300D2898F /* Assets.xcassets */; };
 		4F98609B2A6330B300D2898F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F98609A2A6330B300D2898F /* Preview Assets.xcassets */; };
@@ -50,14 +47,10 @@
 		4FB4637C2A651B4A00DE1137 /* LeagueSpartan-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */; };
 		4FB4637D2A651B4E00DE1137 /* LeagueSpartan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463742A651B2500DE1137 /* LeagueSpartan-Thin.ttf */; };
 		4FB4637E2A651B5100DE1137 /* LeagueSpartan-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FB463702A651B2500DE1137 /* LeagueSpartan-SemiBold.ttf */; };
-		4FDEA1D72A97CF4B007E7B95 /* AppointmentNameAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */; };
-		4FDEA1D92A97D0DB007E7B95 /* AppointmentLocationAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F2E2D012B817EDE003467B0 /* AppointmentAddInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentAddInformationView.swift; sourceTree = "<group>"; };
-		4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentInitialAddView.swift; sourceTree = "<group>"; };
-		4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDateAddView.swift; sourceTree = "<group>"; };
+		4F0FC0032BE694E10018BC22 /* AppointmentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentData.swift; sourceTree = "<group>"; };
 		4F68B0BB2A68DEFC0057E3B6 /* ContactLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLabelView.swift; sourceTree = "<group>"; };
 		4F68B0BD2A68E0590057E3B6 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		4F68B0BF2A68E5920057E3B6 /* ContactNameAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactNameAddView.swift; sourceTree = "<group>"; };
@@ -69,7 +62,6 @@
 		4F8A55F12A69F7D800ECE41F /* ContactEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEditView.swift; sourceTree = "<group>"; };
 		4F8A55F42A6CCD4400ECE41F /* AppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsView.swift; sourceTree = "<group>"; };
 		4F8A55F62A717B2B00ECE41F /* AppointmentCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCardView.swift; sourceTree = "<group>"; };
-		4F8A55F82A718DF500ECE41F /* AppointmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailView.swift; sourceTree = "<group>"; };
 		4F9860902A6330B200D2898F /* HeartHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9860932A6330B200D2898F /* HeartHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartHealthApp.swift; sourceTree = "<group>"; };
 		4F9860972A6330B300D2898F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,8 +94,6 @@
 		4FB463752A651B2500DE1137 /* LeagueSpartan-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Medium.ttf"; sourceTree = "<group>"; };
 		4FB463762A651B2500DE1137 /* LeagueSpartan-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "LeagueSpartan-Regular.ttf"; path = "HeartHealth/Assets/LeagueSpartan-Regular.ttf"; sourceTree = SOURCE_ROOT; };
 		4FB463772A651B2500DE1137 /* LeagueSpartan-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LeagueSpartan-Bold.ttf"; sourceTree = "<group>"; };
-		4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentNameAdd.swift; sourceTree = "<group>"; };
-		4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentLocationAddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,12 +146,6 @@
 			children = (
 				4F8A55F42A6CCD4400ECE41F /* AppointmentsView.swift */,
 				4F8A55F62A717B2B00ECE41F /* AppointmentCardView.swift */,
-				4F8A55F82A718DF500ECE41F /* AppointmentDetailView.swift */,
-				4F5600A72A894DD9001B54F5 /* AppointmentInitialAddView.swift */,
-				4F5600AB2A89533A001B54F5 /* AppointmentDateAddView.swift */,
-				4FDEA1D62A97CF4B007E7B95 /* AppointmentNameAdd.swift */,
-				4FDEA1D82A97D0DB007E7B95 /* AppointmentLocationAddView.swift */,
-				4F2E2D012B817EDE003467B0 /* AppointmentAddInformationView.swift */,
 			);
 			path = Appointments;
 			sourceTree = "<group>";
@@ -169,6 +153,7 @@
 		4F9860872A6330B200D2898F = {
 			isa = PBXGroup;
 			children = (
+				4F0FC0032BE694E10018BC22 /* AppointmentData.swift */,
 				4F9860922A6330B200D2898F /* HeartHealth */,
 				4F9860912A6330B200D2898F /* Products */,
 			);
@@ -313,10 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FDEA1D92A97D0DB007E7B95 /* AppointmentLocationAddView.swift in Sources */,
-				4FDEA1D72A97CF4B007E7B95 /* AppointmentNameAdd.swift in Sources */,
 				4F68B0C82A68FE3B0057E3B6 /* ContactEmailAddView.swift in Sources */,
-				4F2E2D022B817EDE003467B0 /* AppointmentAddInformationView.swift in Sources */,
 				4F9860AD2A63543700D2898F /* MedicationDosageView.swift in Sources */,
 				4F8A55F72A717B2B00ECE41F /* AppointmentCardView.swift in Sources */,
 				4FB463632A63F2E700DE1137 /* InitialView.swift in Sources */,
@@ -330,8 +312,6 @@
 				4F8A55F52A6CCD4400ECE41F /* AppointmentsView.swift in Sources */,
 				4FB463652A63F39000DE1137 /* MenuItemView.swift in Sources */,
 				4FB4636B2A6515D900DE1137 /* MedicationEditScreen.swift in Sources */,
-				4F8A55F92A718DF500ECE41F /* AppointmentDetailView.swift in Sources */,
-				4F5600AC2A89533A001B54F5 /* AppointmentDateAddView.swift in Sources */,
 				4F68B0BE2A68E0590057E3B6 /* ContactsView.swift in Sources */,
 				4FB4635B2A63DC7E00DE1137 /* MedicationDetailLabelView.swift in Sources */,
 				4F9860A92A6339A900D2898F /* MedicationLabelView.swift in Sources */,
@@ -340,9 +320,9 @@
 				4F68B0CC2A6902580057E3B6 /* ContactDetailView.swift in Sources */,
 				4F9860B62A63C94A00D2898F /* MedicationDetailView.swift in Sources */,
 				4F68B0C02A68E5920057E3B6 /* ContactNameAddView.swift in Sources */,
-				4F5600A82A894DD9001B54F5 /* AppointmentInitialAddView.swift in Sources */,
 				4F9860A02A6330B300D2898F /* HeartHealth.xcdatamodeld in Sources */,
 				4F68B0C62A68FB5E0057E3B6 /* ContactPhoneAddView.swift in Sources */,
+				4F0FC0042BE694E10018BC22 /* AppointmentData.swift in Sources */,
 				4FB463612A63F1D400DE1137 /* HomeView.swift in Sources */,
 				4F68B0BC2A68DEFC0057E3B6 /* ContactLabelView.swift in Sources */,
 				4F68B0C42A68E7B70057E3B6 /* ContactPositionAddView.swift in Sources */,
